@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-body {
-    width: 1000px;
-}
-
 header {
     width: 1000px;
     background-color: #ffcccc;
@@ -11,7 +7,7 @@ header {
 
 #wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 #main {
